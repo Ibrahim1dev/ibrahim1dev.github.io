@@ -9,7 +9,23 @@ body {
   color: #8C8A93;
 }
 #canvas {
+    width: 80%;
     border: 1px solid black;
     background: #92B4A7;
-    margin-left: 40px;
+    margin: 40px;
+}
+
+button {
+  background: #92B4A7;
+  font-size: 25px;
+  font-family: Arial;
+  color: #333634;
+  width: 100px;
+  border-radius: 6px;
+}
+
+.buttons{
+  display: block;
+  padding: 10px;
+
 }

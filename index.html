@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div id="points">
       <h3>Poäng: <span id="counter">0</span></h3>
     </div>
     <canvas id="canvas" width="700" height="500"></canvas>
+    <div class="buttons">
+      <button id= "up" onclick="up();" type="button" name="button">&#8593;</button>
+      <br><br>
+      <button id="down" onclick="down()" type="button" name="button">&#8595;</button>
+      <br><br>
+      <br><br>
+      <button id="start" onclick="start();" type="button" name="button">Starta</button>
+
+    </div>
   <script src="app.js"></script>
   </body>
 </html>

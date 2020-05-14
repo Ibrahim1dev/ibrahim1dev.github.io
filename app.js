@@ -56,6 +56,20 @@ document.addEventListener('keyup', function(event) {
 });
 
 
+
+
+//Button events
+function up(){
+  paddleY-= 20;
+}
+
+function down(){
+  paddleY+=20;
+}
+
+
+
+
 function draw() {
     c.clearRect(0, 0, canvas.width, canvas.height);
     drawBall();
@@ -96,4 +110,6 @@ function draw() {
 
 }
 
-setInterval(draw, 10);
+  function start(){
+    setInterval(draw, 10);
+  }
