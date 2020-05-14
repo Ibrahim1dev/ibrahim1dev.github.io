@@ -1,19 +1,32 @@
 body {
   text-align: center;
+  min-width: fit-content;
 }
 #points{
   text-align: center;
-  margin: 50px;
+  margin: 25px;
   font-size: 25px;
   font-family: Arial;
   color: #8C8A93;
 }
+
+#canvas {
+    width: 550px;
+    border: 1px solid black;
+    background: #92B4A7;
+    margin: 0px;
+  }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 #canvas {
     width: 80%;
     border: 1px solid black;
     background: #92B4A7;
-    margin: 40px;
+    margin: 25px;
 }
+}
+
+
 
 button {
   background: #92B4A7;
@@ -25,7 +38,6 @@ button {
 }
 
 .buttons{
-  display: block;
   padding: 10px;
 
 }
