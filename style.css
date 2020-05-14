@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+#points{
+  text-align: center;
+  margin: 50px;
+  font-size: 25px;
+  font-family: Arial;
+  color: #8C8A93;
+}
+#canvas {
+    border: 1px solid black;
+    background: #92B4A7;
+    margin-left: 40px;
+}
